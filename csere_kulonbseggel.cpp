@@ -8,9 +8,9 @@ int b; //második szám
 
 cin>>a>>b;
 
-a = a+b;
-b = a-b;
-a = a-b;
+a = a+b; //a = a+b
+b = a-b; //b = (a+b)-b = a
+a = a-b; //a = (a+b)-a = b
 
 cout<<"Csere után: "<<a<<","<<b<<"\n";
 }
