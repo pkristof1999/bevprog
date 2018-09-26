@@ -32,4 +32,4 @@ cout<<"I hope you enjoying your retirement!\n";
 cout<<"Yours sincerely,\n\n";
 cout<<"Kristóf Pankotai\n";
 }
-//Az angol részre nem vállalok garanciát hogy jó.. :D
+//Az angol részre nem vállalok garanciát nyelvtanilag.. :D
