@@ -152,7 +152,7 @@ int main()
 try
 {
 	cout << "Welcome to our simple calculator.\nPlease enter expressions using floating-point numbers.\n";
-	cout << "Available operators are: +, -, *, /, and %\nTo print the result, type =\nTo exit, type x\n";
+	cout << "Available operators are: {+, -, *, /}\nTo print the result, type '='\nTo exit, type 'x'\n";
 	double val = 0;
 	while (cin) {
         Token t = ts.get();
@@ -174,5 +174,5 @@ catch (...) {
     cerr << "Oops: unknown exception!\n"; 
 	keep_window_open();
     return 2;
-}
+	}
 }
